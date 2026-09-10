@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2800" viewBox="0 0 2400 2800">
+  <rect width="2400" height="1600" fill="#f5f3ed"/>
+  <style>
+.title{font:700 52px Arial;fill:#17221f}.subtitle{font:400 22px Arial;fill:#63706b}.section{font:700 22px Arial;fill:#07504d;letter-spacing:1px}.label{font:700 19px Arial;fill:#17221f}.body{font:400 15px Arial;fill:#2c3834}.tech{font:600 14px 'Courier New';fill:#8a3b14}.hint{font:italic 13px Arial;fill:#5c6b65}.foot{font:700 17px Arial;fill:#63706b}
+  </style>
+  <rect x="50" y="40" width="2300" height="2720" rx="16" fill="#fffdf7" stroke="#d8ded8" stroke-width="3"/>
+  <text x="90" y="105" class="title">Manage Reservation | Opportunity Canvas</text>
+  <text x="90" y="142" class="subtitle">Opportunity 1 | Digitize customer journeys to expand self-service and lower customer effort</text>
+  <line x1="90" y1="168" x2="2310" y2="168" stroke="#e96f55" stroke-width="5"/>
+  <text x="90" y="210" class="section">PROBLEM &amp; CONTEXT</text>
+  <text x="1200" y="210" class="section">SOLUTION &amp; VALUE</text>
+  <g stroke="#d8ded8" stroke-width="2">
+    <rect x="90" y="230" width="530" height="280" rx="10" fill="#f9d9cf"/>
+    <rect x="645" y="230" width="530" height="280" rx="10" fill="#f9d9cf"/>
+    <rect x="1200" y="230" width="530" height="280" rx="10" fill="#dceee7"/>
+    <rect x="1755" y="230" width="530" height="280" rx="10" fill="#dceee7"/>
+    <rect x="90" y="530" width="530" height="280" rx="10" fill="#f9d9cf"/>
+    <rect x="645" y="530" width="530" height="280" rx="10" fill="#f9d9cf"/>
+    <rect x="1200" y="530" width="530" height="280" rx="10" fill="#f8eab7"/>
+    <rect x="1755" y="530" width="530" height="280" rx="10" fill="#f8eab7"/>
+  </g>
+  <text x="110" y="270" class="label">1. Problems</text>
+  <text x="110" y="305" class="body">• Change Reservation journey remains pending.</text>
+  <text x="110" y="328" class="body">• Unclear next self-service action creates effort.</text>
+  <text x="110" y="351" class="tech">• Errors and host latency can deflect to calls.</text>
+  <text x="110" y="385" class="hint">Verified: journey gap | inferred: drop-off cause</text>
+  <text x="665" y="270" class="label">2. Customers and users</text>
+  <text x="665" y="305" class="body">• External traveler on web or mobile.</text>
+  <text x="665" y="328" class="body">• Customer Care agent needing channel parity.</text>
+  <text x="665" y="351" class="body">• Journey moment: retrieve, review, change.</text>
+  <text x="665" y="385" class="hint">Confirm personas with journey evidence</text>
+  <text x="1220" y="270" class="label">3. Solution idea</text>
+  <text x="1220" y="305" class="body">• Contextual next-best action after retrieval.</text>
+  <text x="1220" y="328" class="body">• One clear path to a voluntary flight change.</text>
+  <text x="1220" y="351" class="tech">• BFF + synthetic reservation boundary.</text>
+  <text x="1220" y="385" class="hint">Start with one journey slice</text>
+  <text x="1775" y="270" class="label">4. What users do to get value</text>
+  <text x="1775" y="305" class="body">• Enter reservation details and view itinerary.</text>
+  <text x="1775" y="328" class="body">• Select an eligible change and confirm.</text>
+  <text x="1775" y="351" class="body">• Receive updated trip confirmation.</text>
+  <text x="1775" y="385" class="hint">Target behavior: self-service completion</text>
+  <text x="110" y="570" class="label">5. Solutions today</text>
+  <text x="110" y="605" class="body">• Multi-step legacy web and mobile journeys.</text>
+  <text x="110" y="628" class="body">• Contact center compensates for friction.</text>
+  <text x="110" y="651" class="tech">• Workaround cost and handoff burden are real.</text>
+  <text x="110" y="685" class="hint">Map current path before redesign</text>
+  <text x="665" y="570" class="label">6. Business challenges</text>
+  <text x="665" y="605" class="body">• Digital share is not visibly progressing.</text>
+  <text x="665" y="628" class="body">• Calls increase customer effort and cost.</text>
+  <text x="665" y="651" class="tech">• Four KRs show 0% progress; ownership needs review.</text>
+  <text x="665" y="685" class="hint">Verified signal; cause remains unresolved</text>
+  <text x="1220" y="570" class="label">7. Metrics</text>
+  <text x="1220" y="605" class="body">• Vol Change channel share: 72.2% starting value.</text>
+  <text x="1220" y="628" class="body">• Instrument retrieve, review, change, completion.</text>
+  <text x="1220" y="651" class="tech">• Baseline freshness and progress require confirmation.</text>
+  <text x="1220" y="685" class="hint">No invented baseline</text>
+  <text x="1775" y="570" class="label">8. Business impact</text>
+  <text x="1775" y="605" class="body">• More customers complete servicing digitally.</text>
+  <text x="1775" y="628" class="body">• Lower customer effort and call-center demand.</text>
+  <text x="1775" y="651" class="body">• Reliable cross-channel reservation servicing.</text>
+  <text x="1775" y="685" class="hint">Impact hypothesis; measure after instrumenting</text>
+  <text x="90" y="850" class="section">CAPSTONE EXECUTION ADD-ONS</text>
+  <g stroke="#d8ded8" stroke-width="2">
+    <rect x="90" y="875" width="530" height="360" rx="10" fill="#e4e0f1"/>
+    <rect x="645" y="875" width="530" height="360" rx="10" fill="#e4e0f1"/>
+    <rect x="1200" y="875" width="530" height="360" rx="10" fill="#e4e0f1"/>
+    <rect x="1755" y="875" width="530" height="360" rx="10" fill="#e4e0f1"/>
+  </g>
+  <text x="110" y="915" class="label">9. Evidence and assumptions</text>
+  <text x="110" y="950" class="body">• Verified: two journeys shared; Change pending.</text>
+  <text x="110" y="973" class="body">• Verified: four digital-share KRs exist.</text>
+  <text x="110" y="996" class="tech">• Assumption: clear next action reduces effort.</text>
+  <text x="110" y="1019" class="body">• Unknown: exact step-level drop-off distribution.</text>
+  <text x="110" y="1060" class="hint">Evidence: Discovery Dojo, Aha, H1 data</text>
+  <text x="665" y="915" class="label">10. Smallest valuable slice</text>
+  <text x="665" y="950" class="body">• Single-pax domestic one-way change.</text>
+  <text x="665" y="973" class="body">• Retrieve -&gt; view -&gt; choose -&gt; confirm.</text>
+  <text x="665" y="996" class="body">• Include friendly unavailable-flight error.</text>
+  <text x="665" y="1019" class="tech">• Exclude multi-pax, fare difference, seat map.</text>
+  <text x="665" y="1060" class="hint">Demo contract: one end-to-end journey</text>
+  <text x="1220" y="915" class="label">11. Acceptance checks</text>
+  <text x="1220" y="950" class="body">• Given a synthetic PNR, itinerary is retrievable.</text>
+  <text x="1220" y="973" class="body">• When eligible change is selected, confirmation updates.</text>
+  <text x="1220" y="996" class="tech">• Automated GWT, boundary, and error tests pass.</text>
+  <text x="1220" y="1019" class="tech">• Telemetry events appear in the funnel.</text>
+  <text x="1220" y="1060" class="hint">Green gate before demo claim</text>
+  <text x="1775" y="915" class="label">12. Risks and next learning</text>
+  <text x="1775" y="950" class="body">• Host latency or transaction lock.</text>
+  <text x="1775" y="973" class="tech">• PII exposure without synthetic data controls.</text>
+  <text x="1775" y="996" class="body">• Next: validate journey with 50 synthetic PNRs.</text>
+  <text x="1775" y="1019" class="body">• Owner: product + SL + EM; review in Engage.</text>
+  <text x="1775" y="1060" class="hint">Decision: validate before scaling</text>
+  <line x1="90" y1="1280" x2="2310" y2="1280" stroke="#d8ded8" stroke-width="2"/>
+  <text x="90" y="1320" class="foot">Teach inputs: OKR + metrics | Journey + SL | Vertical slicing | CAI | Testing | Legacy Rescue | VSM | AI stories + Scrum</text>
+  <text x="90" y="1360" class="foot">Capstone proof: traveler completes one synthetic reservation-change journey with telemetry and automated evidence.</text>
+  <text x="90" y="1410" class="subtitle">Sources: content-08-24-26v1.json; aha-manage-reservation-analysis.md; manres-capstone-mapping-canvas.svg</text>
+  <line x1="90" y1="1460" x2="2310" y2="1460" stroke="#d8ded8" stroke-width="2"/>
+  <text x="90" y="1510" class="section">TECHNOLOGY SHARED UNDERSTANDING</text>
+  <text x="90" y="1540" class="subtitle">Record the approach and proof for this journey slice. Every claim is tied to evidence or labeled as an assumption.</text>
+  <g stroke="#b8c4be" stroke-width="2">
+    <rect x="90" y="1570" width="412" height="360" rx="10" fill="#eef5f2"/>
+    <rect x="522" y="1570" width="412" height="360" rx="10" fill="#eef5f2"/>
+    <rect x="954" y="1570" width="412" height="360" rx="10" fill="#eef5f2"/>
+    <rect x="1386" y="1570" width="412" height="360" rx="10" fill="#eef5f2"/>
+    <rect x="1818" y="1570" width="492" height="360" rx="10" fill="#eef5f2"/>
+  </g>
+  <text x="112" y="1610" class="label">TESTING</text>
+  <text x="112" y="1640" class="tech">ENG-4.1 | 4.2 | 4.11</text>
+  <text x="112" y="1672" class="body">• Pyramid: unit + BFF + journey.</text>
+  <text x="112" y="1695" class="body">• Characterize legacy retrieval/change.</text>
+  <text x="112" y="1718" class="body">• Mutate eligibility and error rules.</text>
+  <text x="112" y="1755" class="tech">D/V/F: journey can complete reliably.</text>
+  <text x="112" y="1788" class="hint">Proof: GWT, fixtures, mutation result</text>
+  <text x="544" y="1610" class="label">AUTOMATION</text>
+  <text x="544" y="1640" class="tech">ENG-5.2 | quality gates</text>
+  <text x="544" y="1672" class="body">• Build -&gt; test -&gt; deploy on every slice.</text>
+  <text x="544" y="1695" class="body">• WireMock Sabre boundary and fixtures.</text>
+  <text x="544" y="1718" class="body">• Fail fast on broken journey contracts.</text>
+  <text x="544" y="1755" class="tech">D/V/F: synthetic path is repeatable.</text>
+  <text x="544" y="1788" class="hint">Proof: runnable pipeline and gate</text>
+  <text x="976" y="1610" class="label">OBSERVABILITY</text>
+  <text x="976" y="1640" class="tech">ENG-5.5 | ENG-10.4 | PRD-6.1</text>
+  <text x="976" y="1672" class="body">• Logs, metrics, traces, funnel dashboard.</text>
+  <text x="976" y="1695" class="body">• Events: retrieved, viewed, changed.</text>
+  <text x="976" y="1718" class="body">• Alert on error and latency threshold.</text>
+  <text x="976" y="1755" class="tech">D/V/F: visibility explains drop-off.</text>
+  <text x="976" y="1788" class="hint">Proof: event payload and dashboard</text>
+  <text x="1408" y="1610" class="label">EFFECTIVE AI</text>
+  <text x="1408" y="1640" class="tech">ENG-12.1 | ENG-12.3</text>
+  <text x="1408" y="1672" class="body">• Generate GWT and boundary cases.</text>
+  <text x="1408" y="1695" class="body">• Context: journey rules and fixtures.</text>
+  <text x="1408" y="1718" class="body">• Human reviews every generated test.</text>
+  <text x="1408" y="1755" class="tech">D/V/F: AI accelerates without self-certifying.</text>
+  <text x="1408" y="1788" class="hint">Proof: reviewed prompt/output pair</text>
+  <text x="1840" y="1610" class="label">HANGAR AI PROPOSAL</text>
+  <text x="1840" y="1640" class="tech">Law IDs | evidence | exception</text>
+  <text x="1840" y="1672" class="body">• Apply privacy, testing, and observability laws.</text>
+  <text x="1840" y="1695" class="body">• Synthetic PNR/PII only; no live secrets.</text>
+  <text x="1840" y="1718" class="body">• Record exceptions and tradeoffs.</text>
+  <text x="1840" y="1755" class="tech">D/V/F: compliant design supports learning.</text>
+  <text x="1840" y="1788" class="hint">Proof: law/evidence/exception map</text>
+  <text x="90" y="1995" class="section">CAPSTONE POC MAP | THURSDAY 9/24</text>
+  <rect x="90" y="2025" width="2220" height="300" rx="10" fill="#e4e0f1" stroke="#5c4d9a" stroke-width="3"/>
+  <text x="120" y="2070" class="label">Chosen opportunity + user outcome</text>
+  <text x="120" y="2098" class="body">Digitize journeys: traveler completes one voluntary change digitally with lower effort.</text>
+  <text x="820" y="2070" class="label">Smallest vertical slice + exclusions</text>
+  <text x="820" y="2098" class="body">Synthetic single-pax retrieve -&gt; view -&gt; change; exclude multi-pax, fare, seats.</text>
+  <text x="1580" y="2070" class="label">D / V / F decision</text>
+  <text x="1580" y="2098" class="body">Desirable and feasible to test; viable only after baseline and owner confirmation.</text>
+  <text x="120" y="2150" class="label">Demo path + automated proof</text>
+  <text x="120" y="2178" class="body">Retrieve PNR, show option, confirm change, show updated pass; GWT + pipeline green.</text>
+  <text x="820" y="2150" class="label">Observable measure + learning result</text>
+  <text x="820" y="2178" class="body">Funnel events and completion time; learn where effort or errors remain.</text>
+  <text x="1580" y="2150" class="label">Next experiment + owner</text>
+  <text x="1580" y="2178" class="body">Run 50 synthetic PNRs and validate latency; Product, SL, EM own next review.</text>
+  <text x="120" y="2245" class="hint">Every claim points to evidence above; unknowns remain explicit.</text>
+  <text x="90" y="2365" class="foot">Squad: Product + SL + EM | Opportunity: Digitize customer journeys | Last updated: 2026-09-10</text>
+  <text x="90" y="2410" class="subtitle">Working rule: facts are traceable, assumptions are labeled, unknowns become questions, and AI outputs require human-validated evidence.</text>
+</svg>

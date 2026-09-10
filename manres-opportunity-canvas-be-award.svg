@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2800" viewBox="0 0 2400 2800">
+  <rect width="2400" height="1600" fill="#f5f3ed"/>
+  <style>
+.title{font:700 52px Arial;fill:#17221f}.subtitle{font:400 22px Arial;fill:#63706b}.section{font:700 22px Arial;fill:#07504d;letter-spacing:1px}.label{font:700 19px Arial;fill:#17221f}.body{font:400 15px Arial;fill:#2c3834}.tech{font:600 14px 'Courier New';fill:#8a3b14}.hint{font:italic 13px Arial;fill:#5c6b65}.foot{font:700 17px Arial;fill:#63706b}
+  </style>
+  <rect x="50" y="40" width="2300" height="2720" rx="16" fill="#fffdf7" stroke="#d8ded8" stroke-width="3"/>
+  <text x="90" y="105" class="title">Manage Reservation | Opportunity Canvas</text>
+  <text x="90" y="142" class="subtitle">Opportunity 3 | Deliver BE Award initiatives against the stated 83% digital-adoption ambition</text>
+  <line x1="90" y1="168" x2="2310" y2="168" stroke="#e96f55" stroke-width="5"/>
+  <text x="90" y="210" class="section">PROBLEM &amp; CONTEXT</text>
+  <text x="1200" y="210" class="section">SOLUTION &amp; VALUE</text>
+  <g stroke="#d8ded8" stroke-width="2">
+    <rect x="90" y="230" width="530" height="280" rx="10" fill="#f9d9cf"/>
+    <rect x="645" y="230" width="530" height="280" rx="10" fill="#f9d9cf"/>
+    <rect x="1200" y="230" width="530" height="280" rx="10" fill="#dceee7"/>
+    <rect x="1755" y="230" width="530" height="280" rx="10" fill="#dceee7"/>
+    <rect x="90" y="530" width="530" height="280" rx="10" fill="#f9d9cf"/>
+    <rect x="645" y="530" width="530" height="280" rx="10" fill="#f9d9cf"/>
+    <rect x="1200" y="530" width="530" height="280" rx="10" fill="#f8eab7"/>
+    <rect x="1755" y="530" width="530" height="280" rx="10" fill="#f8eab7"/>
+  </g>
+  <text x="110" y="270" class="label">1. Problems</text>
+  <text x="110" y="305" class="body">• BE Award ambition is not yet a delivery chain.</text>
+  <text x="110" y="328" class="body">• Work is not visibly linked to adoption outcomes.</text>
+  <text x="110" y="351" class="tech">• Release and KR status evidence is inconsistent.</text>
+  <text x="110" y="385" class="hint">Verified: ambition | unresolved: progress reality</text>
+  <text x="665" y="270" class="label">2. Customers and users</text>
+  <text x="665" y="305" class="body">• Digital traveler using reservation servicing.</text>
+  <text x="665" y="328" class="body">• Product, delivery, and leadership decision makers.</text>
+  <text x="665" y="351" class="body">• Squads needing a shared outcome contract.</text>
+  <text x="665" y="385" class="hint">Name one adoption journey for the slice</text>
+  <text x="1220" y="270" class="label">3. Solution idea</text>
+  <text x="1220" y="305" class="body">• Trace one BE Award initiative end to end.</text>
+  <text x="1220" y="328" class="body">• Link BV -&gt; OKR -&gt; KR -&gt; release -&gt; slice.</text>
+  <text x="1220" y="351" class="tech">• Add a visible evidence and decision ledger.</text>
+  <text x="1220" y="385" class="hint">Make value delivery auditable</text>
+  <text x="1775" y="270" class="label">4. What users do to get value</text>
+  <text x="1775" y="305" class="body">• Complete the selected digital service.</text>
+  <text x="1775" y="328" class="body">• Receive reliable feedback and confirmation.</text>
+  <text x="1775" y="351" class="body">• Leaders see adoption evidence, not activity.</text>
+  <text x="1775" y="385" class="hint">Desired behavior: digital completion</text>
+  <text x="110" y="570" class="label">5. Solutions today</text>
+  <text x="110" y="605" class="body">• Initiatives and releases exist in separate views.</text>
+  <text x="110" y="628" class="body">• Teams rely on local backlog and status signals.</text>
+  <text x="110" y="651" class="tech">• 16 detailed releases remain Under consideration.</text>
+  <text x="110" y="685" class="hint">Association is not proof of delivery</text>
+  <text x="665" y="570" class="label">6. Business challenges</text>
+  <text x="665" y="605" class="body">• Adoption ambition needs ownership and cadence.</text>
+  <text x="665" y="628" class="body">• Four direct KRs show current=start and 0%.</text>
+  <text x="665" y="651" class="tech">• One Self Service Request KR is unassigned.</text>
+  <text x="665" y="685" class="hint">Control problem: status vs outcome</text>
+  <text x="1220" y="570" class="label">7. Metrics</text>
+  <text x="1220" y="605" class="body">• Digital-share KRs: 72.2%, 80.7%, 79.6%, 75.5%.</text>
+  <text x="1220" y="628" class="body">• Track current, owner, cadence, and evidence date.</text>
+  <text x="1220" y="651" class="tech">• Stated ambition: 83% digital adoption.</text>
+  <text x="1220" y="685" class="hint">Reconcile title/timeframe conflict first</text>
+  <text x="1775" y="570" class="label">8. Business impact</text>
+  <text x="1775" y="605" class="body">• Higher digital adoption and self-service share.</text>
+  <text x="1775" y="628" class="body">• Better customer experience and leadership confidence.</text>
+  <text x="1775" y="651" class="body">• Portfolio decisions grounded in evidence.</text>
+  <text x="1775" y="685" class="hint">Impact: ambition, not yet demonstrated</text>
+  <text x="90" y="850" class="section">CAPSTONE EXECUTION ADD-ONS</text>
+  <g stroke="#d8ded8" stroke-width="2">
+    <rect x="90" y="875" width="530" height="360" rx="10" fill="#e4e0f1"/>
+    <rect x="645" y="875" width="530" height="360" rx="10" fill="#e4e0f1"/>
+    <rect x="1200" y="875" width="530" height="360" rx="10" fill="#e4e0f1"/>
+    <rect x="1755" y="875" width="530" height="360" rx="10" fill="#e4e0f1"/>
+  </g>
+  <text x="110" y="915" class="label">9. Evidence and assumptions</text>
+  <text x="110" y="950" class="body">• Verified: 83% digital-adoption ambition stated.</text>
+  <text x="110" y="973" class="body">• Verified: four KRs show 0% progress in snapshot.</text>
+  <text x="110" y="996" class="tech">• Contradiction: goal title says 2025; timeframe 2026.</text>
+  <text x="110" y="1019" class="body">• Unknown: refreshed progress and owner agreement.</text>
+  <text x="110" y="1060" class="hint">Evidence: Aha, Discovery Dojo, release inventory</text>
+  <text x="665" y="915" class="label">10. Smallest valuable slice</text>
+  <text x="665" y="950" class="body">• Select one digital servicing journey and KR.</text>
+  <text x="665" y="973" class="body">• Link one release to one demonstrable story.</text>
+  <text x="665" y="996" class="body">• Show evidence date, owner, and decision.</text>
+  <text x="665" y="1019" class="tech">• Exclude portfolio-wide adoption claim.</text>
+  <text x="665" y="1060" class="hint">A traceability slice, not a full program</text>
+  <text x="1220" y="915" class="label">11. Acceptance checks</text>
+  <text x="1220" y="950" class="body">• Every claim links to a source and timestamp.</text>
+  <text x="1220" y="973" class="body">• KR owner, target, and cadence are explicit.</text>
+  <text x="1220" y="996" class="tech">• Story passes DoR/DoD and quality gate.</text>
+  <text x="1220" y="1019" class="tech">• Demo shows outcome evidence, not status only.</text>
+  <text x="1220" y="1060" class="hint">Traceability is the acceptance test</text>
+  <text x="1775" y="915" class="label">12. Risks and next learning</text>
+  <text x="1775" y="950" class="body">• Stale tracking may resemble no progress.</text>
+  <text x="1775" y="973" class="tech">• Unassigned ownership blocks accountability.</text>
+  <text x="1775" y="996" class="body">• Next: reconcile KR, release, and initiative data.</text>
+  <text x="1775" y="1019" class="body">• Owner: product director + PO/PM + analytics.</text>
+  <text x="1775" y="1060" class="hint">Decision: refresh evidence before escalation</text>
+  <line x1="90" y1="1280" x2="2310" y2="1280" stroke="#d8ded8" stroke-width="2"/>
+  <text x="90" y="1320" class="foot">Teach inputs: OKR + metrics | Journey | Vertical slicing | CAI | VSM | AI stories + Scrum</text>
+  <text x="90" y="1360" class="foot">Capstone proof: one fully traced digital-adoption slice from business value to demo evidence and next decision.</text>
+  <text x="90" y="1410" class="subtitle">Sources: content-08-24-26v1.json; aha-manage-reservation-analysis.md; manres-capstone-mapping-canvas.svg</text>
+  <line x1="90" y1="1460" x2="2310" y2="1460" stroke="#d8ded8" stroke-width="2"/>
+  <text x="90" y="1510" class="section">TECHNOLOGY SHARED UNDERSTANDING</text>
+  <text x="90" y="1540" class="subtitle">Record the technology proof for a fully traceable BE Award slice.</text>
+  <g stroke="#b8c4be" stroke-width="2">
+    <rect x="90" y="1570" width="412" height="360" rx="10" fill="#eef5f2"/>
+    <rect x="522" y="1570" width="412" height="360" rx="10" fill="#eef5f2"/>
+    <rect x="954" y="1570" width="412" height="360" rx="10" fill="#eef5f2"/>
+    <rect x="1386" y="1570" width="412" height="360" rx="10" fill="#eef5f2"/>
+    <rect x="1818" y="1570" width="492" height="360" rx="10" fill="#eef5f2"/>
+  </g>
+  <text x="112" y="1610" class="label">TESTING</text>
+  <text x="112" y="1640" class="tech">ENG-4.1 | 4.2 | 4.11</text>
+  <text x="112" y="1672" class="body">• Test linkage from BV through slice.</text>
+  <text x="112" y="1695" class="body">• Characterize status and evidence behavior.</text>
+  <text x="112" y="1718" class="body">• Mutate owner, target, and gate rules.</text>
+  <text x="112" y="1755" class="tech">D/V/F: traceability survives change.</text>
+  <text x="112" y="1788" class="hint">Proof: GWT, linkage fixture, mutation result</text>
+  <text x="544" y="1610" class="label">AUTOMATION</text>
+  <text x="544" y="1640" class="tech">ENG-5.2 | quality gates</text>
+  <text x="544" y="1672" class="body">• Generate evidence ledger from source links.</text>
+  <text x="544" y="1695" class="body">• Run validation in CI before demo.</text>
+  <text x="544" y="1718" class="body">• Fail when owner or date is missing.</text>
+  <text x="544" y="1755" class="tech">D/V/F: chain is repeatable and reviewable.</text>
+  <text x="544" y="1788" class="hint">Proof: validation job and gate</text>
+  <text x="976" y="1610" class="label">OBSERVABILITY</text>
+  <text x="976" y="1640" class="tech">ENG-5.5 | ENG-10.4 | PRD-6.1</text>
+  <text x="976" y="1672" class="body">• Dashboard shows KR, release, slice status.</text>
+  <text x="976" y="1695" class="body">• Signal freshness and owner completeness.</text>
+  <text x="976" y="1718" class="body">• Alert on stale or contradictory evidence.</text>
+  <text x="976" y="1755" class="tech">D/V/F: leaders can act on current signals.</text>
+  <text x="976" y="1788" class="hint">Proof: dashboard, threshold, action log</text>
+  <text x="1408" y="1610" class="label">EFFECTIVE AI</text>
+  <text x="1408" y="1640" class="tech">ENG-12.1 | ENG-12.3</text>
+  <text x="1408" y="1672" class="body">• Summarize links and expose contradictions.</text>
+  <text x="1408" y="1695" class="body">• Context: Aha, ADO, release, and evidence.</text>
+  <text x="1408" y="1718" class="body">• Human approves every decision narrative.</text>
+  <text x="1408" y="1755" class="tech">D/V/F: AI accelerates review, not authority.</text>
+  <text x="1408" y="1788" class="hint">Proof: reviewed summary and citations</text>
+  <text x="1840" y="1610" class="label">HANGAR AI PROPOSAL</text>
+  <text x="1840" y="1640" class="tech">Law IDs | evidence | exception</text>
+  <text x="1840" y="1672" class="body">• Make adoption evidence auditable and cited.</text>
+  <text x="1840" y="1695" class="body">• Preserve 2025-title/2026-timeframe conflict.</text>
+  <text x="1840" y="1718" class="body">• Record exceptions before leadership decision.</text>
+  <text x="1840" y="1755" class="tech">D/V/F: proposal improves decision confidence.</text>
+  <text x="1840" y="1788" class="hint">Proof: law/evidence/exception map</text>
+  <text x="90" y="1995" class="section">CAPSTONE POC MAP | THURSDAY 9/24</text>
+  <rect x="90" y="2025" width="2220" height="300" rx="10" fill="#e4e0f1" stroke="#5c4d9a" stroke-width="3"/>
+  <text x="120" y="2070" class="label">Chosen opportunity + user outcome</text>
+  <text x="120" y="2098" class="body">BE Award: leadership sees one digital-adoption slice traced to a real user outcome.</text>
+  <text x="820" y="2070" class="label">Smallest vertical slice + exclusions</text>
+  <text x="820" y="2098" class="body">One KR, release, story, and demo evidence chain; exclude portfolio-wide adoption claim.</text>
+  <text x="1580" y="2070" class="label">D / V / F decision</text>
+  <text x="1580" y="2098" class="body">Desirable for control; feasible with evidence automation; viable after ownership refresh.</text>
+  <text x="120" y="2150" class="label">Demo path + automated proof</text>
+  <text x="120" y="2178" class="body">Show source -&gt; KR -&gt; release -&gt; story -&gt; demo; validation and quality gates pass.</text>
+  <text x="820" y="2150" class="label">Observable measure + learning result</text>
+  <text x="820" y="2178" class="body">Evidence freshness, owner completeness, and linked outcome; learn whether decisions improve.</text>
+  <text x="1580" y="2150" class="label">Next experiment + owner</text>
+  <text x="1580" y="2178" class="body">Reconcile KR/release/initiative data; Product Director, PO/PM, and Analytics own review.</text>
+  <text x="120" y="2245" class="hint">The 83% ambition is retained as stated; the canvas does not claim it has been achieved.</text>
+  <text x="90" y="2365" class="foot">Squad: Product Director + PO/PM + Analytics | Opportunity: Deliver BE Award initiatives | Last updated: 2026-09-10</text>
+  <text x="90" y="2410" class="subtitle">Working rule: facts are traceable, assumptions are labeled, unknowns become questions, and AI outputs require human-validated evidence.</text>
+</svg>

@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2800" viewBox="0 0 2400 2800">
+  <rect width="2400" height="2800" fill="#f5f3ed"/>
+  <style>
+    .title { font: 700 60px 'Arial', sans-serif; fill: #17221f; }
+    .subtitle { font: 400 25px 'Arial', sans-serif; fill: #63706b; }
+    .section { font: 700 27px 'Arial', sans-serif; fill: #07504d; letter-spacing: 1px; }
+    .label { font: 700 24px 'Arial', sans-serif; fill: #17221f; }
+    .body { font: 400 22px 'Arial', sans-serif; fill: #40504a; }
+    .hint { font: italic 20px 'Arial', sans-serif; fill: #718079; }
+    .footer { font: 700 21px 'Arial', sans-serif; fill: #63706b; }
+    .gate-title { font: 700 30px 'Arial', sans-serif; fill: #ffffff; }
+    .gate-subtitle { font: 700 17px 'Arial', sans-serif; fill: #ffffff; letter-spacing: .5px; }
+    .guide-label { font: 700 20px 'Arial', sans-serif; fill: #17221f; }
+    .guide { font: 400 17px 'Arial', sans-serif; fill: #40504a; }
+    .session { font: 700 15px 'Arial', sans-serif; fill: #07504d; }
+    .law { font: 700 14px 'Courier New', monospace; fill: #8a3b14; }
+    .write-line { stroke: #aeb9b3; stroke-width: 2; stroke-dasharray: 4 7; }
+  </style>
+
+  <rect x="64" y="58" width="2272" height="2680" rx="18" fill="#fffdf7" stroke="#d8ded8" stroke-width="3"/>
+  <text x="112" y="145" class="title">Manage Reservation | Opportunity Canvas</text>
+  <text x="112" y="192" class="subtitle">Teach-to-Capstone technology guide | Capture session outputs, test assumptions, then map the POC</text>
+  <line x1="112" y1="232" x2="2288" y2="232" stroke="#e96f55" stroke-width="8"/>
+
+  <text x="112" y="286" class="section">PROBLEM AND CONTEXT</text>
+  <text x="1230" y="286" class="section">SOLUTION AND VALUE</text>
+
+  <g stroke="#d8ded8" stroke-width="3">
+    <rect x="112" y="315" width="520" height="260" rx="10" fill="#f9d9cf"/>
+    <rect x="650" y="315" width="520" height="260" rx="10" fill="#f9d9cf"/>
+    <rect x="1188" y="315" width="520" height="260" rx="10" fill="#dceee7"/>
+    <rect x="1726" y="315" width="520" height="260" rx="10" fill="#dceee7"/>
+    <rect x="112" y="600" width="520" height="260" rx="10" fill="#f9d9cf"/>
+    <rect x="650" y="600" width="520" height="260" rx="10" fill="#f9d9cf"/>
+    <rect x="1188" y="600" width="520" height="260" rx="10" fill="#f8eab7"/>
+    <rect x="1726" y="600" width="520" height="260" rx="10" fill="#f8eab7"/>
+  </g>
+
+  <text x="140" y="365" class="label">1. Problems</text>
+  <text x="140" y="406" class="body">What user problem, need, goal,</text>
+  <text x="140" y="438" class="body">or job are we addressing?</text>
+  <text x="140" y="520" class="hint">Evidence | assumptions | questions</text>
+
+  <text x="678" y="365" class="label">2. Customers and users</text>
+  <text x="678" y="406" class="body">Who experiences this problem?</text>
+  <text x="678" y="438" class="body">Which journey moment matters?</text>
+  <text x="678" y="520" class="hint">Be specific about the user</text>
+
+  <text x="1216" y="365" class="label">3. Solution idea</text>
+  <text x="1216" y="406" class="body">What product, feature, service,</text>
+  <text x="1216" y="438" class="body">or enhancement could help?</text>
+  <text x="1216" y="520" class="hint">Consider more than one option</text>
+
+  <text x="1754" y="365" class="label">4. What users do to get value</text>
+  <text x="1754" y="406" class="body">What will users do when the</text>
+  <text x="1754" y="438" class="body">solution exists?</text>
+  <text x="1754" y="520" class="hint">Describe the desired behavior</text>
+
+  <text x="140" y="650" class="label">5. Solutions today</text>
+  <text x="140" y="691" class="body">How do users solve this today?</text>
+  <text x="140" y="723" class="body">What workarounds compete with us?</text>
+  <text x="140" y="805" class="hint">Current journey | alternatives</text>
+
+  <text x="678" y="650" class="label">6. Business challenges</text>
+  <text x="678" y="691" class="body">How does this problem affect</text>
+  <text x="678" y="723" class="body">ManRes or the business?</text>
+  <text x="678" y="805" class="hint">Cost | effort | adoption | loyalty</text>
+
+  <text x="1216" y="650" class="label">7. Metrics</text>
+  <text x="1216" y="691" class="body">What behavior will we observe?</text>
+  <text x="1216" y="723" class="body">What is the baseline and target?</text>
+  <text x="1216" y="805" class="hint">Do not invent a baseline</text>
+
+  <text x="1754" y="650" class="label">8. Business impact</text>
+  <text x="1754" y="691" class="body">Which business outcome could</text>
+  <text x="1754" y="723" class="body">change if this works?</text>
+  <text x="1754" y="805" class="hint">Revenue | cost | satisfaction</text>
+
+  <text x="112" y="912" class="section">CAPSTONE EXECUTION ADD-ONS</text>
+  <g stroke="#d8ded8" stroke-width="3">
+    <rect x="112" y="945" width="520" height="310" rx="10" fill="#e4e0f1"/>
+    <rect x="650" y="945" width="520" height="310" rx="10" fill="#e4e0f1"/>
+    <rect x="1188" y="945" width="520" height="310" rx="10" fill="#e4e0f1"/>
+    <rect x="1726" y="945" width="520" height="310" rx="10" fill="#e4e0f1"/>
+  </g>
+  <text x="140" y="995" class="label">9. Evidence and assumptions</text>
+  <text x="140" y="1037" class="body">What do we know? What do we</text>
+  <text x="140" y="1069" class="body">believe? What remains unknown?</text>
+  <text x="140" y="1175" class="hint">Label each sticky note</text>
+
+  <text x="678" y="995" class="label">10. Smallest valuable slice</text>
+  <text x="678" y="1037" class="body">What is the thinnest outcome we</text>
+  <text x="678" y="1069" class="body">can demonstrate and learn from?</text>
+  <text x="678" y="1175" class="hint">Include exclusions</text>
+
+  <text x="1216" y="995" class="label">11. Acceptance checks</text>
+  <text x="1216" y="1037" class="body">What must be true for the demo</text>
+  <text x="1216" y="1069" class="body">slice to count as working?</text>
+  <text x="1216" y="1175" class="hint">Happy path | boundary | error</text>
+
+  <text x="1754" y="995" class="label">12. Risks and next learning</text>
+  <text x="1754" y="1037" class="body">What could make this fail? What</text>
+  <text x="1754" y="1069" class="body">will we learn next in Engage?</text>
+  <text x="1754" y="1175" class="hint">Owner | next experiment</text>
+
+  <text x="112" y="1852" class="section">TECHNOLOGY SHARED UNDERSTANDING</text>
+  <text x="112" y="1887" class="subtitle">Record the approach and proof produced in each teach. Reference the relevant D / V / F assumption.</text>
+
+  <g stroke="#b8c4be" stroke-width="2">
+    <rect x="112" y="1920" width="412" height="360" rx="10" fill="#eef5f2"/>
+    <rect x="542" y="1920" width="412" height="360" rx="10" fill="#eef5f2"/>
+    <rect x="972" y="1920" width="412" height="360" rx="10" fill="#eef5f2"/>
+    <rect x="1402" y="1920" width="412" height="360" rx="10" fill="#eef5f2"/>
+    <rect x="1832" y="1920" width="414" height="360" rx="10" fill="#eef5f2"/>
+  </g>
+
+  <text x="136" y="1962" class="label">TESTING</text>
+  <text x="136" y="1992" class="session">Thu 9/17 PM</text>
+  <text x="136" y="2025" class="law">ENG-4.1 | 4.2 | 4.4 | 4.11</text>
+  <text x="136" y="2062" class="guide">Pyramid / characterization / mutation:</text>
+  <line x1="136" y1="2090" x2="500" y2="2090" class="write-line"/>
+  <text x="136" y="2124" class="guide">Critical behavior and test evidence:</text>
+  <line x1="136" y1="2152" x2="500" y2="2152" class="write-line"/>
+  <text x="136" y="2186" class="guide">D / V / F assumption tested:</text>
+  <line x1="136" y1="2214" x2="500" y2="2214" class="write-line"/>
+  <text x="136" y="2252" class="hint">Attach executable proof</text>
+
+  <text x="566" y="1962" class="label">AUTOMATION</text>
+  <text x="566" y="1992" class="session">Thu 9/17 PM + Capstone</text>
+  <text x="566" y="2025" class="law">ENG-5.2 | quality gates</text>
+  <text x="566" y="2062" class="guide">Repeatable build / test / deploy steps:</text>
+  <line x1="566" y1="2090" x2="930" y2="2090" class="write-line"/>
+  <text x="566" y="2124" class="guide">Fast feedback and failure handling:</text>
+  <line x1="566" y1="2152" x2="930" y2="2152" class="write-line"/>
+  <text x="566" y="2186" class="guide">D / V / F assumption tested:</text>
+  <line x1="566" y1="2214" x2="930" y2="2214" class="write-line"/>
+  <text x="566" y="2252" class="hint">Prefer a runnable path</text>
+
+  <text x="996" y="1962" class="label">OBSERVABILITY</text>
+  <text x="996" y="1992" class="session">Tue 9/15 PM + Tue 9/22 PM</text>
+  <text x="996" y="2025" class="law">ENG-5.5 | ENG-10.4 | PRD-6.1</text>
+  <text x="996" y="2062" class="guide">Logs / metrics / traces / dashboard:</text>
+  <line x1="996" y1="2090" x2="1360" y2="2090" class="write-line"/>
+  <text x="996" y="2124" class="guide">Signal, threshold, and action:</text>
+  <line x1="996" y1="2152" x2="1360" y2="2152" class="write-line"/>
+  <text x="996" y="2186" class="guide">D / V / F assumption tested:</text>
+  <line x1="996" y1="2214" x2="1360" y2="2214" class="write-line"/>
+  <text x="996" y="2252" class="hint">Make learning visible</text>
+
+  <text x="1426" y="1962" class="label">EFFECTIVE AI</text>
+  <text x="1426" y="1992" class="session">Thu 9/17 AM + Tue 9/22 AM</text>
+  <text x="1426" y="2025" class="law">ENG-12.1 | ENG-12.3</text>
+  <text x="1426" y="2062" class="guide">AI task, context, and expected output:</text>
+  <line x1="1426" y1="2090" x2="1790" y2="2090" class="write-line"/>
+  <text x="1426" y="2124" class="guide">Human review and validation evidence:</text>
+  <line x1="1426" y1="2152" x2="1790" y2="2152" class="write-line"/>
+  <text x="1426" y="2186" class="guide">D / V / F assumption tested:</text>
+  <line x1="1426" y1="2214" x2="1790" y2="2214" class="write-line"/>
+  <text x="1426" y="2252" class="hint">AI assists; evidence decides</text>
+
+  <text x="1856" y="1962" class="label">HANGAR AI PROPOSAL</text>
+  <text x="1856" y="1992" class="session">Thu 9/17 AM + Tue 9/22 AM</text>
+  <text x="1856" y="2025" class="law">Law IDs | evidence | exception</text>
+  <text x="1856" y="2062" class="guide">Applicable law and design response:</text>
+  <line x1="1856" y1="2090" x2="2222" y2="2090" class="write-line"/>
+  <text x="1856" y="2124" class="guide">Evidence, tradeoff, or exception:</text>
+  <line x1="1856" y1="2152" x2="2222" y2="2152" class="write-line"/>
+  <text x="1856" y="2186" class="guide">D / V / F assumption tested:</text>
+  <line x1="1856" y1="2214" x2="2222" y2="2214" class="write-line"/>
+  <text x="1856" y="2252" class="hint">Cite, apply, verify</text>
+
+  <text x="112" y="2340" class="section">CAPSTONE POC MAP | THURSDAY 9/24</text>
+  <rect x="112" y="2370" width="2134" height="250" rx="10" fill="#e4e0f1" stroke="#5c4d9a" stroke-width="3"/>
+  <text x="140" y="2412" class="guide-label">Chosen opportunity + user outcome</text>
+  <line x1="140" y1="2442" x2="750" y2="2442" class="write-line"/>
+  <text x="820" y="2412" class="guide-label">Smallest vertical slice + exclusions</text>
+  <line x1="820" y1="2442" x2="1510" y2="2442" class="write-line"/>
+  <text x="1580" y="2412" class="guide-label">D / V / F decision</text>
+  <line x1="1580" y1="2442" x2="2218" y2="2442" class="write-line"/>
+  <text x="140" y="2492" class="guide-label">Demo path + automated proof</text>
+  <line x1="140" y1="2522" x2="750" y2="2522" class="write-line"/>
+  <text x="820" y="2492" class="guide-label">Observable measure + learning result</text>
+  <line x1="820" y1="2522" x2="1510" y2="2522" class="write-line"/>
+  <text x="1580" y="2492" class="guide-label">Next experiment + owner</text>
+  <line x1="1580" y1="2522" x2="2218" y2="2522" class="write-line"/>
+  <text x="140" y="2580" class="hint">Use this strip as the POC build and demo contract. Every claim should point to evidence above.</text>
+
+  <text x="112" y="2675" class="footer">Squad: ____________________</text>
+  <text x="740" y="2675" class="footer">Opportunity: ____________________</text>
+  <text x="1450" y="2675" class="footer">Last updated: ____________________</text>
+  <text x="112" y="2725" class="subtitle">Working rule: facts are traceable, assumptions are labeled, unknowns become questions, and AI outputs require human-validated evidence.</text>
+</svg>

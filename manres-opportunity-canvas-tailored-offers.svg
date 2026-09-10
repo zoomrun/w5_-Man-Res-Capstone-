@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2800" viewBox="0 0 2400 2800">
+  <rect width="2400" height="1600" fill="#f5f3ed"/>
+  <style>
+.title{font:700 52px Arial;fill:#17221f}.subtitle{font:400 22px Arial;fill:#63706b}.section{font:700 22px Arial;fill:#07504d;letter-spacing:1px}.label{font:700 19px Arial;fill:#17221f}.body{font:400 15px Arial;fill:#2c3834}.tech{font:600 14px 'Courier New';fill:#8a3b14}.hint{font:italic 13px Arial;fill:#5c6b65}.foot{font:700 17px Arial;fill:#63706b}
+  </style>
+  <rect x="50" y="40" width="2300" height="2720" rx="16" fill="#fffdf7" stroke="#d8ded8" stroke-width="3"/>
+  <text x="90" y="105" class="title">Manage Reservation | Opportunity Canvas</text>
+  <text x="90" y="142" class="subtitle">Opportunity 2 | Advance Tailored Offers with measurable incremental-revenue outcomes</text>
+  <line x1="90" y1="168" x2="2310" y2="168" stroke="#e96f55" stroke-width="5"/>
+  <text x="90" y="210" class="section">PROBLEM &amp; CONTEXT</text>
+  <text x="1200" y="210" class="section">SOLUTION &amp; VALUE</text>
+  <g stroke="#d8ded8" stroke-width="2">
+    <rect x="90" y="230" width="530" height="280" rx="10" fill="#f9d9cf"/>
+    <rect x="645" y="230" width="530" height="280" rx="10" fill="#f9d9cf"/>
+    <rect x="1200" y="230" width="530" height="280" rx="10" fill="#dceee7"/>
+    <rect x="1755" y="230" width="530" height="280" rx="10" fill="#dceee7"/>
+    <rect x="90" y="530" width="530" height="280" rx="10" fill="#f9d9cf"/>
+    <rect x="645" y="530" width="530" height="280" rx="10" fill="#f9d9cf"/>
+    <rect x="1200" y="530" width="530" height="280" rx="10" fill="#f8eab7"/>
+    <rect x="1755" y="530" width="530" height="280" rx="10" fill="#f8eab7"/>
+  </g>
+  <text x="110" y="270" class="label">1. Problems</text>
+  <text x="110" y="305" class="body">• Offers lack a visible experiment-to-revenue loop.</text>
+  <text x="110" y="328" class="body">• Success metrics are rarely named in features.</text>
+  <text x="110" y="351" class="tech">• Only 7 of 121 features name a success metric.</text>
+  <text x="110" y="385" class="hint">Verified gap: measurement discipline</text>
+  <text x="665" y="270" class="label">2. Customers and users</text>
+  <text x="665" y="305" class="body">• Traveler receiving a relevant offer.</text>
+  <text x="665" y="328" class="body">• Product and analytics teams owning outcomes.</text>
+  <text x="665" y="351" class="body">• Offer and servicing partners needing feedback.</text>
+  <text x="665" y="385" class="hint">Confirm segment and decision moment</text>
+  <text x="1220" y="270" class="label">3. Solution idea</text>
+  <text x="1220" y="305" class="body">• One measurable tailored-offer experiment.</text>
+  <text x="1220" y="328" class="body">• Show offer, eligibility, response, and outcome.</text>
+  <text x="1220" y="351" class="tech">• Use a feature flag and synthetic traveler data.</text>
+  <text x="1220" y="385" class="hint">Experiment, not a broad offer rebuild</text>
+  <text x="1775" y="270" class="label">4. What users do to get value</text>
+  <text x="1775" y="305" class="body">• See an offer relevant to their trip context.</text>
+  <text x="1775" y="328" class="body">• Accept, dismiss, or defer the offer.</text>
+  <text x="1775" y="351" class="body">• Complete the linked action without friction.</text>
+  <text x="1775" y="385" class="hint">Observe response and downstream outcome</text>
+  <text x="110" y="570" class="label">5. Solutions today</text>
+  <text x="110" y="605" class="body">• Offers exist across product and partner areas.</text>
+  <text x="110" y="628" class="body">• Reporting is fragmented and often output-led.</text>
+  <text x="110" y="651" class="tech">• No documented experiment workflow.</text>
+  <text x="110" y="685" class="hint">Association count is not a deduplicated outcome</text>
+  <text x="665" y="570" class="label">6. Business challenges</text>
+  <text x="665" y="605" class="body">• Incremental revenue ambition lacks a shared proof.</text>
+  <text x="665" y="628" class="body">• Prioritization and ownership are unclear.</text>
+  <text x="665" y="651" class="tech">• Only 29 of 121 features are outcome-driven.</text>
+  <text x="665" y="685" class="hint">Verified signal; causal value unresolved</text>
+  <text x="1220" y="570" class="label">7. Metrics</text>
+  <text x="1220" y="605" class="body">• Exposure, acceptance, completion, revenue.</text>
+  <text x="1220" y="628" class="body">• Segment results and guardrail outcomes.</text>
+  <text x="1220" y="651" class="tech">• Establish baseline before setting target.</text>
+  <text x="1220" y="685" class="hint">Metrics: hypothesis, baseline, threshold</text>
+  <text x="1775" y="570" class="label">8. Business impact</text>
+  <text x="1775" y="605" class="body">• Incremental revenue from relevant offers.</text>
+  <text x="1775" y="628" class="body">• Better traveler relevance and trust.</text>
+  <text x="1775" y="651" class="body">• Repeatable investment decision for Offers.</text>
+  <text x="1775" y="685" class="hint">Impact remains a hypothesis to test</text>
+  <text x="90" y="850" class="section">CAPSTONE EXECUTION ADD-ONS</text>
+  <g stroke="#d8ded8" stroke-width="2">
+    <rect x="90" y="875" width="530" height="360" rx="10" fill="#e4e0f1"/>
+    <rect x="645" y="875" width="530" height="360" rx="10" fill="#e4e0f1"/>
+    <rect x="1200" y="875" width="530" height="360" rx="10" fill="#e4e0f1"/>
+    <rect x="1755" y="875" width="530" height="360" rx="10" fill="#e4e0f1"/>
+  </g>
+  <text x="110" y="915" class="label">9. Evidence and assumptions</text>
+  <text x="110" y="950" class="body">• Verified: 7/121 features name success metrics.</text>
+  <text x="110" y="973" class="body">• Verified: 29/121 are outcome-driven.</text>
+  <text x="110" y="996" class="tech">• Assumption: relevance improves acceptance.</text>
+  <text x="110" y="1019" class="body">• Unknown: attributable revenue baseline.</text>
+  <text x="110" y="1060" class="hint">Evidence: Discovery Dojo and Aha snapshot</text>
+  <text x="665" y="915" class="label">10. Smallest valuable slice</text>
+  <text x="665" y="950" class="body">• One offer, one segment, one decision moment.</text>
+  <text x="665" y="973" class="body">• Expose -&gt; accept/dismiss -&gt; linked completion.</text>
+  <text x="665" y="996" class="body">• Include a control or comparison path.</text>
+  <text x="665" y="1019" class="tech">• Exclude pricing engine and broad catalog.</text>
+  <text x="665" y="1060" class="hint">Smallest experiment that tests value</text>
+  <text x="1220" y="915" class="label">11. Acceptance checks</text>
+  <text x="1220" y="950" class="body">• Eligibility rules produce the intended offer.</text>
+  <text x="1220" y="973" class="body">• Exposure and response events are recorded.</text>
+  <text x="1220" y="996" class="tech">• Experiment groups remain explainable.</text>
+  <text x="1220" y="1019" class="tech">• No PII leakage; quality gate is green.</text>
+  <text x="1220" y="1060" class="hint">Evidence before revenue claim</text>
+  <text x="1775" y="915" class="label">12. Risks and next learning</text>
+  <text x="1775" y="950" class="body">• Relevance or fatigue reduces trust.</text>
+  <text x="1775" y="973" class="tech">• Attribution may be confounded by other changes.</text>
+  <text x="1775" y="996" class="body">• Next: run a safe-to-fail synthetic experiment.</text>
+  <text x="1775" y="1019" class="body">• Owner: product + analytics + engineering.</text>
+  <text x="1775" y="1060" class="hint">Decision: scale only with causal evidence</text>
+  <line x1="90" y1="1280" x2="2310" y2="1280" stroke="#d8ded8" stroke-width="2"/>
+  <text x="90" y="1320" class="foot">Teach inputs: OKR + metrics | Journey | Vertical slicing | CAI | Testing | VSM | AI stories + Scrum</text>
+  <text x="90" y="1360" class="foot">Capstone proof: one instrumented offer experiment with a visible response funnel and decision threshold.</text>
+  <text x="90" y="1410" class="subtitle">Sources: content-08-24-26v1.json; aha-manage-reservation-analysis.md; manres-capstone-mapping-canvas.svg</text>
+  <line x1="90" y1="1460" x2="2310" y2="1460" stroke="#d8ded8" stroke-width="2"/>
+  <text x="90" y="1510" class="section">TECHNOLOGY SHARED UNDERSTANDING</text>
+  <text x="90" y="1540" class="subtitle">Record the approach and proof for the tailored-offer experiment.</text>
+  <g stroke="#b8c4be" stroke-width="2">
+    <rect x="90" y="1570" width="412" height="360" rx="10" fill="#eef5f2"/>
+    <rect x="522" y="1570" width="412" height="360" rx="10" fill="#eef5f2"/>
+    <rect x="954" y="1570" width="412" height="360" rx="10" fill="#eef5f2"/>
+    <rect x="1386" y="1570" width="412" height="360" rx="10" fill="#eef5f2"/>
+    <rect x="1818" y="1570" width="492" height="360" rx="10" fill="#eef5f2"/>
+  </g>
+  <text x="112" y="1610" class="label">TESTING</text>
+  <text x="112" y="1640" class="tech">ENG-4.1 | 4.2 | 4.11</text>
+  <text x="112" y="1672" class="body">• Test eligibility and offer rendering.</text>
+  <text x="112" y="1695" class="body">• Characterize current offer behavior.</text>
+  <text x="112" y="1718" class="body">• Mutate segment and response rules.</text>
+  <text x="112" y="1755" class="tech">D/V/F: offer behavior is explainable.</text>
+  <text x="112" y="1788" class="hint">Proof: GWT, control, mutation result</text>
+  <text x="544" y="1610" class="label">AUTOMATION</text>
+  <text x="544" y="1640" class="tech">ENG-5.2 | quality gates</text>
+  <text x="544" y="1672" class="body">• Feature flag controls experiment exposure.</text>
+  <text x="544" y="1695" class="body">• Build/test/deploy path is repeatable.</text>
+  <text x="544" y="1718" class="body">• Fail safely when eligibility is unclear.</text>
+  <text x="544" y="1755" class="tech">D/V/F: experiment can be rerun.</text>
+  <text x="544" y="1788" class="hint">Proof: pipeline and flag evidence</text>
+  <text x="976" y="1610" class="label">OBSERVABILITY</text>
+  <text x="976" y="1640" class="tech">ENG-5.5 | ENG-10.4 | PRD-6.1</text>
+  <text x="976" y="1672" class="body">• Exposure, accept, dismiss, completion events.</text>
+  <text x="976" y="1695" class="body">• Segment and control comparison dashboard.</text>
+  <text x="976" y="1718" class="body">• Alert on error, fatigue, and guardrail breach.</text>
+  <text x="976" y="1755" class="tech">D/V/F: signal supports a decision.</text>
+  <text x="976" y="1788" class="hint">Proof: event schema and dashboard</text>
+  <text x="1408" y="1610" class="label">EFFECTIVE AI</text>
+  <text x="1408" y="1640" class="tech">ENG-12.1 | ENG-12.3</text>
+  <text x="1408" y="1672" class="body">• Generate hypotheses and acceptance cases.</text>
+  <text x="1408" y="1695" class="body">• Context includes segment and guardrails.</text>
+  <text x="1408" y="1718" class="body">• Human validates relevance and safety.</text>
+  <text x="1408" y="1755" class="tech">D/V/F: AI helps explore, not claim revenue.</text>
+  <text x="1408" y="1788" class="hint">Proof: reviewed prompt/output pair</text>
+  <text x="1840" y="1610" class="label">HANGAR AI PROPOSAL</text>
+  <text x="1840" y="1640" class="tech">Law IDs | evidence | exception</text>
+  <text x="1840" y="1672" class="body">• Protect PII and explain eligibility decisions.</text>
+  <text x="1840" y="1695" class="body">• Record tradeoff between relevance and fatigue.</text>
+  <text x="1840" y="1718" class="body">• Keep experiment evidence auditable.</text>
+  <text x="1840" y="1755" class="tech">D/V/F: safe experiment earns investment review.</text>
+  <text x="1840" y="1788" class="hint">Proof: law/evidence/exception map</text>
+  <text x="90" y="1995" class="section">CAPSTONE POC MAP | THURSDAY 9/24</text>
+  <rect x="90" y="2025" width="2220" height="300" rx="10" fill="#e4e0f1" stroke="#5c4d9a" stroke-width="3"/>
+  <text x="120" y="2070" class="label">Chosen opportunity + user outcome</text>
+  <text x="120" y="2098" class="body">Tailored Offers: traveler sees a relevant offer and completes a measurable linked action.</text>
+  <text x="820" y="2070" class="label">Smallest vertical slice + exclusions</text>
+  <text x="820" y="2098" class="body">One segment, offer, and decision moment with control; exclude pricing/catalog rebuild.</text>
+  <text x="1580" y="2070" class="label">D / V / F decision</text>
+  <text x="1580" y="2098" class="body">Desirable to test; feasible with flags and synthetic data; viable only with attribution.</text>
+  <text x="120" y="2150" class="label">Demo path + automated proof</text>
+  <text x="120" y="2178" class="body">Expose offer, accept/dismiss, complete action; automated eligibility and event tests pass.</text>
+  <text x="820" y="2150" class="label">Observable measure + learning result</text>
+  <text x="820" y="2178" class="body">Exposure, response, completion, control delta; learn whether relevance changes behavior.</text>
+  <text x="1580" y="2150" class="label">Next experiment + owner</text>
+  <text x="1580" y="2178" class="body">Run safe-to-fail segment test; Product, Analytics, and Engineering own review.</text>
+  <text x="120" y="2245" class="hint">Revenue remains a hypothesis until baseline, attribution, and guardrails are demonstrated.</text>
+  <text x="90" y="2365" class="foot">Squad: Product + Analytics + Engineering | Opportunity: Advance Tailored Offers | Last updated: 2026-09-10</text>
+  <text x="90" y="2410" class="subtitle">Working rule: facts are traceable, assumptions are labeled, unknowns become questions, and AI outputs require human-validated evidence.</text>
+</svg>
