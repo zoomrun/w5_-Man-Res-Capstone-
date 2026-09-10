@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2800" viewBox="0 0 2400 2800">
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2250" viewBox="0 0 2400 2250">
   <rect width="2400" height="2800" fill="#f5f3ed"/>
   <style>
     .title { font: 700 60px 'Arial', sans-serif; fill: #17221f; }
@@ -103,90 +103,94 @@
   <text x="1754" y="1069" class="body">will we learn next in Engage?</text>
   <text x="1754" y="1175" class="hint">Owner | next experiment</text>
 
-  <text x="112" y="1852" class="section">TECHNOLOGY SHARED UNDERSTANDING</text>
-  <text x="112" y="1887" class="subtitle">Record the approach and proof produced in each teach. Reference the relevant D / V / F assumption.</text>
+  <g transform="translate(0 -540)">
+    <text x="112" y="1852" class="section">TECHNOLOGY SHARED UNDERSTANDING</text>
+    <text x="112" y="1887" class="subtitle">Record the approach and proof produced in each teach. Reference the relevant D / V / F assumption.</text>
 
-  <g stroke="#b8c4be" stroke-width="2">
-    <rect x="112" y="1920" width="412" height="360" rx="10" fill="#eef5f2"/>
-    <rect x="542" y="1920" width="412" height="360" rx="10" fill="#eef5f2"/>
-    <rect x="972" y="1920" width="412" height="360" rx="10" fill="#eef5f2"/>
-    <rect x="1402" y="1920" width="412" height="360" rx="10" fill="#eef5f2"/>
-    <rect x="1832" y="1920" width="414" height="360" rx="10" fill="#eef5f2"/>
+    <g stroke="#b8c4be" stroke-width="2">
+      <rect x="112" y="1920" width="412" height="360" rx="10" fill="#eef5f2"/>
+      <rect x="542" y="1920" width="412" height="360" rx="10" fill="#eef5f2"/>
+      <rect x="972" y="1920" width="412" height="360" rx="10" fill="#eef5f2"/>
+      <rect x="1402" y="1920" width="412" height="360" rx="10" fill="#eef5f2"/>
+      <rect x="1832" y="1920" width="414" height="360" rx="10" fill="#eef5f2"/>
+    </g>
+
+    <text x="136" y="1962" class="label">TESTING</text>
+    <text x="136" y="1992" class="session">Thu 9/17 PM</text>
+    <text x="136" y="2025" class="law">ENG-4.1 | 4.2 | 4.4 | 4.11</text>
+    <text x="136" y="2062" class="guide">Pyramid / characterization / mutation:</text>
+    <line x1="136" y1="2090" x2="500" y2="2090" class="write-line"/>
+    <text x="136" y="2124" class="guide">Critical behavior and test evidence:</text>
+    <line x1="136" y1="2152" x2="500" y2="2152" class="write-line"/>
+    <text x="136" y="2186" class="guide">D / V / F assumption tested:</text>
+    <line x1="136" y1="2214" x2="500" y2="2214" class="write-line"/>
+    <text x="136" y="2252" class="hint">Attach executable proof</text>
+
+    <text x="566" y="1962" class="label">AUTOMATION</text>
+    <text x="566" y="1992" class="session">Thu 9/17 PM + Capstone</text>
+    <text x="566" y="2025" class="law">ENG-5.2 | quality gates</text>
+    <text x="566" y="2062" class="guide">Repeatable build / test / deploy steps:</text>
+    <line x1="566" y1="2090" x2="930" y2="2090" class="write-line"/>
+    <text x="566" y="2124" class="guide">Fast feedback and failure handling:</text>
+    <line x1="566" y1="2152" x2="930" y2="2152" class="write-line"/>
+    <text x="566" y="2186" class="guide">D / V / F assumption tested:</text>
+    <line x1="566" y1="2214" x2="930" y2="2214" class="write-line"/>
+    <text x="566" y="2252" class="hint">Prefer a runnable path</text>
+
+    <text x="996" y="1962" class="label">OBSERVABILITY</text>
+    <text x="996" y="1992" class="session">Tue 9/15 PM + Tue 9/22 PM</text>
+    <text x="996" y="2025" class="law">ENG-5.5 | ENG-10.4 | PRD-6.1</text>
+    <text x="996" y="2062" class="guide">Logs / metrics / traces / dashboard:</text>
+    <line x1="996" y1="2090" x2="1360" y2="2090" class="write-line"/>
+    <text x="996" y="2124" class="guide">Signal, threshold, and action:</text>
+    <line x1="996" y1="2152" x2="1360" y2="2152" class="write-line"/>
+    <text x="996" y="2186" class="guide">D / V / F assumption tested:</text>
+    <line x1="996" y1="2214" x2="1360" y2="2214" class="write-line"/>
+    <text x="996" y="2252" class="hint">Make learning visible</text>
+
+    <text x="1426" y="1962" class="label">EFFECTIVE AI</text>
+    <text x="1426" y="1992" class="session">Thu 9/17 AM + Tue 9/22 AM</text>
+    <text x="1426" y="2025" class="law">ENG-12.1 | ENG-12.3</text>
+    <text x="1426" y="2062" class="guide">AI task, context, and expected output:</text>
+    <line x1="1426" y1="2090" x2="1790" y2="2090" class="write-line"/>
+    <text x="1426" y="2124" class="guide">Human review and validation evidence:</text>
+    <line x1="1426" y1="2152" x2="1790" y2="2152" class="write-line"/>
+    <text x="1426" y="2186" class="guide">D / V / F assumption tested:</text>
+    <line x1="1426" y1="2214" x2="1790" y2="2214" class="write-line"/>
+    <text x="1426" y="2252" class="hint">AI assists; evidence decides</text>
+
+    <text x="1856" y="1962" class="label">HANGAR AI PROPOSAL</text>
+    <text x="1856" y="1992" class="session">Thu 9/17 AM + Tue 9/22 AM</text>
+    <text x="1856" y="2025" class="law">Law IDs | evidence | exception</text>
+    <text x="1856" y="2062" class="guide">Applicable law and design response:</text>
+    <line x1="1856" y1="2090" x2="2222" y2="2090" class="write-line"/>
+    <text x="1856" y="2124" class="guide">Evidence, tradeoff, or exception:</text>
+    <line x1="1856" y1="2152" x2="2222" y2="2152" class="write-line"/>
+    <text x="1856" y="2186" class="guide">D / V / F assumption tested:</text>
+    <line x1="1856" y1="2214" x2="2222" y2="2214" class="write-line"/>
+    <text x="1856" y="2252" class="hint">Cite, apply, verify</text>
   </g>
 
-  <text x="136" y="1962" class="label">TESTING</text>
-  <text x="136" y="1992" class="session">Thu 9/17 PM</text>
-  <text x="136" y="2025" class="law">ENG-4.1 | 4.2 | 4.4 | 4.11</text>
-  <text x="136" y="2062" class="guide">Pyramid / characterization / mutation:</text>
-  <line x1="136" y1="2090" x2="500" y2="2090" class="write-line"/>
-  <text x="136" y="2124" class="guide">Critical behavior and test evidence:</text>
-  <line x1="136" y1="2152" x2="500" y2="2152" class="write-line"/>
-  <text x="136" y="2186" class="guide">D / V / F assumption tested:</text>
-  <line x1="136" y1="2214" x2="500" y2="2214" class="write-line"/>
-  <text x="136" y="2252" class="hint">Attach executable proof</text>
+  <g transform="translate(0 -540)">
+    <text x="112" y="2340" class="section">CAPSTONE POC MAP | THURSDAY 9/24</text>
+    <rect x="112" y="2370" width="2134" height="250" rx="10" fill="#e4e0f1" stroke="#5c4d9a" stroke-width="3"/>
+    <text x="140" y="2412" class="guide-label">Chosen opportunity + user outcome</text>
+    <line x1="140" y1="2442" x2="750" y2="2442" class="write-line"/>
+    <text x="820" y="2412" class="guide-label">Smallest vertical slice + exclusions</text>
+    <line x1="820" y1="2442" x2="1510" y2="2442" class="write-line"/>
+    <text x="1580" y="2412" class="guide-label">D / V / F decision</text>
+    <line x1="1580" y1="2442" x2="2218" y2="2442" class="write-line"/>
+    <text x="140" y="2492" class="guide-label">Demo path + automated proof</text>
+    <line x1="140" y1="2522" x2="750" y2="2522" class="write-line"/>
+    <text x="820" y="2492" class="guide-label">Observable measure + learning result</text>
+    <line x1="820" y1="2522" x2="1510" y2="2522" class="write-line"/>
+    <text x="1580" y="2492" class="guide-label">Next experiment + owner</text>
+    <line x1="1580" y1="2522" x2="2218" y2="2522" class="write-line"/>
+    <text x="140" y="2580" class="hint">Use this strip as the POC build and demo contract. Every claim should point to evidence above.</text>
 
-  <text x="566" y="1962" class="label">AUTOMATION</text>
-  <text x="566" y="1992" class="session">Thu 9/17 PM + Capstone</text>
-  <text x="566" y="2025" class="law">ENG-5.2 | quality gates</text>
-  <text x="566" y="2062" class="guide">Repeatable build / test / deploy steps:</text>
-  <line x1="566" y1="2090" x2="930" y2="2090" class="write-line"/>
-  <text x="566" y="2124" class="guide">Fast feedback and failure handling:</text>
-  <line x1="566" y1="2152" x2="930" y2="2152" class="write-line"/>
-  <text x="566" y="2186" class="guide">D / V / F assumption tested:</text>
-  <line x1="566" y1="2214" x2="930" y2="2214" class="write-line"/>
-  <text x="566" y="2252" class="hint">Prefer a runnable path</text>
-
-  <text x="996" y="1962" class="label">OBSERVABILITY</text>
-  <text x="996" y="1992" class="session">Tue 9/15 PM + Tue 9/22 PM</text>
-  <text x="996" y="2025" class="law">ENG-5.5 | ENG-10.4 | PRD-6.1</text>
-  <text x="996" y="2062" class="guide">Logs / metrics / traces / dashboard:</text>
-  <line x1="996" y1="2090" x2="1360" y2="2090" class="write-line"/>
-  <text x="996" y="2124" class="guide">Signal, threshold, and action:</text>
-  <line x1="996" y1="2152" x2="1360" y2="2152" class="write-line"/>
-  <text x="996" y="2186" class="guide">D / V / F assumption tested:</text>
-  <line x1="996" y1="2214" x2="1360" y2="2214" class="write-line"/>
-  <text x="996" y="2252" class="hint">Make learning visible</text>
-
-  <text x="1426" y="1962" class="label">EFFECTIVE AI</text>
-  <text x="1426" y="1992" class="session">Thu 9/17 AM + Tue 9/22 AM</text>
-  <text x="1426" y="2025" class="law">ENG-12.1 | ENG-12.3</text>
-  <text x="1426" y="2062" class="guide">AI task, context, and expected output:</text>
-  <line x1="1426" y1="2090" x2="1790" y2="2090" class="write-line"/>
-  <text x="1426" y="2124" class="guide">Human review and validation evidence:</text>
-  <line x1="1426" y1="2152" x2="1790" y2="2152" class="write-line"/>
-  <text x="1426" y="2186" class="guide">D / V / F assumption tested:</text>
-  <line x1="1426" y1="2214" x2="1790" y2="2214" class="write-line"/>
-  <text x="1426" y="2252" class="hint">AI assists; evidence decides</text>
-
-  <text x="1856" y="1962" class="label">HANGAR AI PROPOSAL</text>
-  <text x="1856" y="1992" class="session">Thu 9/17 AM + Tue 9/22 AM</text>
-  <text x="1856" y="2025" class="law">Law IDs | evidence | exception</text>
-  <text x="1856" y="2062" class="guide">Applicable law and design response:</text>
-  <line x1="1856" y1="2090" x2="2222" y2="2090" class="write-line"/>
-  <text x="1856" y="2124" class="guide">Evidence, tradeoff, or exception:</text>
-  <line x1="1856" y1="2152" x2="2222" y2="2152" class="write-line"/>
-  <text x="1856" y="2186" class="guide">D / V / F assumption tested:</text>
-  <line x1="1856" y1="2214" x2="2222" y2="2214" class="write-line"/>
-  <text x="1856" y="2252" class="hint">Cite, apply, verify</text>
-
-  <text x="112" y="2340" class="section">CAPSTONE POC MAP | THURSDAY 9/24</text>
-  <rect x="112" y="2370" width="2134" height="250" rx="10" fill="#e4e0f1" stroke="#5c4d9a" stroke-width="3"/>
-  <text x="140" y="2412" class="guide-label">Chosen opportunity + user outcome</text>
-  <line x1="140" y1="2442" x2="750" y2="2442" class="write-line"/>
-  <text x="820" y="2412" class="guide-label">Smallest vertical slice + exclusions</text>
-  <line x1="820" y1="2442" x2="1510" y2="2442" class="write-line"/>
-  <text x="1580" y="2412" class="guide-label">D / V / F decision</text>
-  <line x1="1580" y1="2442" x2="2218" y2="2442" class="write-line"/>
-  <text x="140" y="2492" class="guide-label">Demo path + automated proof</text>
-  <line x1="140" y1="2522" x2="750" y2="2522" class="write-line"/>
-  <text x="820" y="2492" class="guide-label">Observable measure + learning result</text>
-  <line x1="820" y1="2522" x2="1510" y2="2522" class="write-line"/>
-  <text x="1580" y="2492" class="guide-label">Next experiment + owner</text>
-  <line x1="1580" y1="2522" x2="2218" y2="2522" class="write-line"/>
-  <text x="140" y="2580" class="hint">Use this strip as the POC build and demo contract. Every claim should point to evidence above.</text>
-
-  <text x="112" y="2675" class="footer">Squad: ____________________</text>
-  <text x="740" y="2675" class="footer">Opportunity: ____________________</text>
-  <text x="1450" y="2675" class="footer">Last updated: ____________________</text>
-  <text x="112" y="2725" class="subtitle">Working rule: facts are traceable, assumptions are labeled, unknowns become questions, and AI outputs require human-validated evidence.</text>
+    <text x="112" y="2675" class="footer">Squad: ____________________</text>
+    <text x="740" y="2675" class="footer">Opportunity: ____________________</text>
+    <text x="1450" y="2675" class="footer">Last updated: ____________________</text>
+    <text x="112" y="2725" class="subtitle">Working rule: facts are traceable, assumptions are labeled, unknowns become questions, and AI outputs require human-validated evidence.</text>
+  </g>
 </svg>
