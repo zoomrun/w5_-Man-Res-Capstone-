@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ManRes Wave 5 | Opportunity to Prototype</title>
-  <meta name="description" content="Manage Reservation Wave 5 Capstone Demo Day guide">
+  <title>ManRes Wave 5 | 4D Opportunity to Prototype</title>
+  <meta name="description" content="Manage Reservation Wave 5 4D capstone guide">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -48,6 +48,7 @@
     .date-pill { display: inline-block; border: 1px solid var(--teal); color: var(--teal-dark); border-radius: 999px; padding: 8px 15px; font-size: .49em; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
     .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
     .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
     .panel { background: rgba(255,253,247,.9); border: 1px solid var(--line); border-radius: 10px; padding: 22px 24px; box-shadow: var(--shadow); }
     .panel.dark { background: var(--teal-dark); color: #f6fbf7; border-color: var(--teal-dark); }
     .panel.dark h3, .panel.dark .small { color: #cce8db; }
@@ -70,6 +71,16 @@
     .canvas-map .value { background: #f8eab7; }
     .canvas-map .add { background: #e4e0f1; }
     .canvas-map strong { display: block; font-family: 'Space Grotesk', sans-serif; font-size: 1.1em; margin-bottom: 7px; }
+    .mapping-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 24px; }
+    .mapping-stage { min-height: 470px; padding: 17px 16px; border: 1px solid var(--line); border-radius: 8px; background: var(--cream); }
+    .mapping-stage.discover { border-top: 7px solid var(--coral); }
+    .mapping-stage.design { border-top: 7px solid var(--yellow); }
+    .mapping-stage.develop { border-top: 7px solid var(--teal); }
+    .mapping-stage.deliver { border-top: 7px solid var(--teal-dark); }
+    .mapping-stage h3 { font-size: .8em; margin-bottom: 14px; }
+    .mapping-stage ul { padding-left: 1em; }
+    .mapping-stage li { color: var(--muted); font-size: .46em; line-height: 1.25; margin-bottom: 12px; }
+    .mapping-stage li strong { color: var(--ink); }
     .schedule { width: 100%; border-collapse: collapse; font-size: .52em; background: var(--cream); border: 1px solid var(--line); }
     .schedule th { background: var(--teal-dark); color: white; text-align: left; padding: 11px 13px; }
     .schedule td { border-top: 1px solid var(--line); padding: 10px 13px; vertical-align: top; line-height: 1.28; }
@@ -94,7 +105,7 @@
     @media (max-width: 800px) {
       .reveal { font-size: 22px; }
       .reveal section { padding: 30px 28px; }
-      .grid-2, .grid-3, .flow, .canvas-map { grid-template-columns: 1fr; }
+      .grid-2, .grid-3, .grid-4, .flow, .canvas-map, .mapping-grid { grid-template-columns: 1fr; }
       .flow-step:not(:last-child):after { content: '↓'; right: 48%; top: auto; bottom: -23px; }
       .footer { left: 28px; right: 28px; }
     }
@@ -115,16 +126,17 @@
       </section>
 
       <section>
-        <div class="eyebrow">The assignment</div>
-        <h2>Make the learning visible in a real slice of ManRes work.</h2>
-        <p class="lede">Each squad chooses one documented opportunity, frames a user problem, explores options, and creates a working prototype that makes the proposed outcome tangible.</p>
-        <div class="grid-3" style="margin-top:36px">
-          <div class="panel coral"><div class="number">01</div><h3>Understand</h3><p class="small">Use journey, VSM, backlog, and product evidence. Separate facts from assumptions.</p></div>
-          <div class="panel mint"><div class="number">02</div><h3>Decide</h3><p class="small">Choose one valuable problem and one smallest useful outcome. Make the trade-offs explicit.</p></div>
-          <div class="panel yellow"><div class="number">03</div><h3>Show</h3><p class="small">Build a working prototype and explain what you would measure next in Engage.</p></div>
+        <div class="eyebrow">The 4D cycle</div>
+        <h2>Move from evidence to a demonstrated outcome.</h2>
+        <p class="lede">The capstone follows four connected moves. Each one leaves useful input for the next.</p>
+        <div class="grid-4" style="margin-top:36px">
+          <div class="panel coral"><div class="number">01</div><h3>Discover</h3><p class="small">Understand the user, problem, context, and evidence.</p></div>
+          <div class="panel yellow"><div class="number">02</div><h3>Design</h3><p class="small">Choose the outcome, measure, solution direction, and first slice.</p></div>
+          <div class="panel mint"><div class="number">03</div><h3>Develop</h3><p class="small">Build and test a working slice, including its boundaries.</p></div>
+          <div class="panel dark"><div class="number">04</div><h3>Deliver</h3><p class="small">Demonstrate the prototype, learning, and next decision.</p></div>
         </div>
-        <div class="quote" style="margin-top:30px">The goal is not to finish a production feature in two weeks. The goal is to demonstrate a coherent path from evidence to an outcome that can be learned from.</div>
-        <div class="footer"><span>01 · Purpose</span><span>ManRes Wave 5 Capstone</span></div>
+        <div class="quote" style="margin-top:30px">In this capstone, Deliver means demonstrate and learn. It does not mean release a production feature.</div>
+        <div class="footer"><span>01 · 4D cycle</span><span>ManRes Wave 5 Capstone</span></div>
       </section>
 
       <section>
@@ -141,18 +153,16 @@
       </section>
 
       <section>
-        <div class="eyebrow">The core tool</div>
-        <h2>Use the Opportunity Canvas to keep the “why” connected to the “what.”</h2>
-        <p class="lede">The Opportunity Canvas is the backbone. It helps teams expose beliefs before investing heavily in a solution.</p>
+        <div class="eyebrow">The working canvas</div>
+        <h2>The canvas grows as the teach progresses.</h2>
+        <p class="lede">Each teach session adds evidence, a choice, or a question. The canvas keeps those inputs connected.</p>
         <div class="canvas-map">
-          <div class="problem"><strong>Problem side</strong>Problems · Customers & Users · Solutions Today · Business Challenges</div>
-          <div class="solution"><strong>Solution side</strong>Solution Idea · What users do to get value · Adoption Strategy</div>
-          <div class="value"><strong>Value side</strong>Metrics · Business Impact · Budget</div>
-          <div class="add"><strong>Capstone add-ons</strong>Evidence & assumptions · First slice · Acceptance checks · Risks & dependencies</div>
-          <div class="add"><strong>Prototype</strong>A testable flow, interaction, service sketch, or other working representation of the proposed experience.</div>
-          <div class="add"><strong>Learning</strong>What the prototype demonstrates, what remains uncertain, and the next experiment.</div>
+          <div class="problem"><strong>Problem and context</strong>Problems · Customers and users · Solutions today · Business challenges</div>
+          <div class="solution"><strong>Solution and value</strong>Solution idea · What users do to get value · Metrics · Business impact</div>
+          <div class="add"><strong>Build and learn</strong>Evidence and assumptions · Smallest valuable slice · Acceptance checks · Risks and next learning</div>
         </div>
-        <div class="footer"><span>03 · Frame the opportunity</span><span>Opportunity Canvas + execution add-ons</span></div>
+        <div class="quote" style="margin-top:24px">The canvas is not a separate assignment. It is updated with the output of each teach session.</div>
+        <div class="footer"><span>03 · Working canvas</span><span>Teach output becomes canvas input</span></div>
       </section>
 
       <section>
@@ -168,28 +178,47 @@
       </section>
 
       <section>
-        <div class="eyebrow">The teach arc</div>
-        <h2>Every block contributes one piece of the capstone.</h2>
-        <div class="flow">
-          <div class="flow-step"><strong>Customer Journey</strong><span>Choose a user, moment, pain, and desired outcome.</span></div>
-          <div class="flow-step"><strong>Measures + Metrics</strong><span>Name the behavior to observe, its baseline, and the business connection.</span></div>
-          <div class="flow-step"><strong>Story Writing + Decomposition</strong><span>Turn the first outcome into a thin, testable slice with acceptance checks.</span></div>
-          <div class="flow-step"><strong>Incremental Delivery + Solution Tree</strong><span>Compare options, sequence learning, and build the prototype.</span></div>
+        <div class="eyebrow">Teach output to canvas input</div>
+        <h2>Each session adds to one or more canvas boxes.</h2>
+        <div class="mapping-grid">
+          <div class="mapping-stage discover"><h3>Discover</h3><ul>
+            <li><strong>OKR basics + outcome/output</strong><br>Problems, Business challenges, Business impact</li>
+            <li><strong>Stakeholder mapping</strong><br>Customers and users, Business challenges</li>
+            <li><strong>Customer Journey</strong><br>Problems, Customers and users, Solutions today</li>
+            <li><strong>Discovery Tree</strong><br>Problems, Solution idea</li>
+            <li><strong>VSM: Idea to Delivery</strong><br>Solutions today, Business challenges</li>
+          </ul></div>
+          <div class="mapping-stage design"><h3>Design</h3><ul>
+            <li><strong>Actionable Product Metrics</strong><br>Metrics, Business impact</li>
+            <li><strong>AI-assisted User Story Fundamentals</strong><br>Problems, Solution idea, What users do to get value</li>
+            <li><strong>Vertical Slicing</strong><br>Solution idea, What users do to get value</li>
+          </ul></div>
+          <div class="mapping-stage develop"><h3>Develop</h3><ul>
+            <li><strong>Incremental Delivery</strong><br>Solution idea, Smallest valuable slice</li>
+            <li><strong>Test Pyramid</strong><br>Acceptance checks</li>
+            <li><strong>Automation + Characterization Testing</strong><br>Acceptance checks, Risks and next learning</li>
+            <li><strong>CAI Legacy Workflows</strong><br>Solutions today, Risks and next learning</li>
+          </ul></div>
+          <div class="mapping-stage deliver"><h3>Deliver</h3><ul>
+            <li><strong>Ways of Working / Scrum</strong><br>Risks and next learning, shared ownership</li>
+            <li><strong>Forecasting</strong><br>Business impact, Risks and next learning</li>
+            <li><strong>Capstone Demo Day</strong><br>Show the completed canvas, prototype, learning, and next decision</li>
+          </ul></div>
         </div>
-        <p class="small" style="margin-top:35px">At the end of each teach block, spend 15 minutes updating the squad canvas. The artifact grows as the teaching happens; it is not a last-minute assignment.</p>
-        <div class="footer"><span>05 · Learn by applying</span><span>15-minute capstone checkpoint after each block</span></div>
+        <p class="small" style="margin-top:22px">The mapping is directional, not one-to-one. For example, the Problems box becomes richer through OKRs, stakeholders, journey work, discovery, and story framing.</p>
+        <div class="footer"><span>05 · 4D teach map</span><span>Multiple sessions can shape one box</span></div>
       </section>
 
       <section>
         <div class="eyebrow">Working rhythm</div>
-        <h2>Use the 15 minutes to leave each block with a decision.</h2>
+        <h2>After every teach session, update the canvas.</h2>
         <table class="schedule">
           <thead><tr><th>Minutes</th><th>Squad action</th><th>Visible output</th></tr></thead>
           <tbody>
-            <tr><td>0–3</td><td>Re-state the opportunity and the user problem in one sentence.</td><td>Updated problem statement</td></tr>
-            <tr><td>3–7</td><td>Apply the block’s concept to the capstone. Add evidence, assumption, or question.</td><td>Canvas sticky notes with labels</td></tr>
+            <tr><td>0–3</td><td>Re-state the latest problem or outcome.</td><td>Current canvas focus</td></tr>
+            <tr><td>3–7</td><td>Add the session output to one or more canvas boxes.</td><td>New evidence, choice, or question</td></tr>
             <tr><td>7–12</td><td>Make one choice: user, metric, slice, solution option, or next test.</td><td>One explicit decision</td></tr>
-            <tr><td>12–15</td><td>Assign an owner and name what must be ready for the next block.</td><td>Next action and owner</td></tr>
+            <tr><td>12–15</td><td>Name what the next session needs and who owns it.</td><td>Next input and owner</td></tr>
           </tbody>
         </table>
         <div class="quote" style="margin-top:28px">A good checkpoint does not produce more notes. It reduces uncertainty or narrows the work.</div>
@@ -214,8 +243,8 @@
       </section>
 
       <section>
-        <div class="eyebrow">What each squad submits</div>
-        <h2>Five artifacts. One coherent story.</h2>
+        <div class="eyebrow">What each squad brings</div>
+        <h2>Keep the output small and useful.</h2>
         <div class="grid-2" style="margin-top:28px">
           <div class="panel mint"><div class="number">01</div><h3>Opportunity Canvas</h3><p class="small">Completed canvas with evidence, assumptions, questions, solution idea, value, and business impact.</p></div>
           <div class="panel coral"><div class="number">02</div><h3>Smallest valuable slice</h3><p class="small">A thin outcome that can be demonstrated now, with acceptance checks and clear exclusions.</p></div>
@@ -223,7 +252,7 @@
           <div class="panel mint"><div class="number">04</div><h3>Measurement plan</h3><p class="small">Behavior metric, baseline status, target or learning goal, business connection, and instrumentation question.</p></div>
           <div class="panel coral"><div class="number">05</div><h3>Six-minute demo</h3><p class="small">A concise narrative: opportunity, user problem, evidence, prototype, learning, and recommendation.</p></div>
         </div>
-        <p class="tiny" style="margin-top:25px">AI may be used as a support tool, but it is not a requirement. The required outcome is a working prototype and a defensible product decision.</p>
+        <p class="tiny" style="margin-top:25px">AI is optional. The required outcome is a working prototype and a clear next decision.</p>
         <div class="footer"><span>08 · The finish line</span><span>Prototype first, polish second</span></div>
       </section>
 
@@ -250,20 +279,19 @@
       </section>
 
       <section>
-        <div class="eyebrow">Put the learning into practice</div>
-        <h2>Use the capstone to apply each teach block.</h2>
+        <div class="eyebrow">Deliver</div>
+        <h2>Deliver means make the learning visible.</h2>
         <table class="rubric">
-          <thead><tr><th>Teach learning</th><th>How it shows up in your capstone</th></tr></thead>
+          <thead><tr><th>4D stage</th><th>What the demo makes visible</th></tr></thead>
           <tbody>
-            <tr><td>Customer Journey</td><td>Choose a specific user, journey moment, problem, and desired outcome.</td></tr>
-            <tr><td>Measures and Metrics</td><td>Name the behavior to observe, the baseline status, and the business connection.</td></tr>
-            <tr><td>Opportunity Canvas</td><td>Connect the problem, users, alternatives, solution idea, value, and assumptions.</td></tr>
-            <tr><td>Story Writing and Decomposition</td><td>Turn the desired outcome into a thin, testable slice with clear acceptance checks.</td></tr>
-            <tr><td>Incremental Delivery</td><td>Make the smallest useful outcome demonstrable and show what is intentionally out of scope.</td></tr>
-            <tr><td>Solution Tree via Scrum</td><td>Explain the options considered, the learning goal, and the next decision.</td></tr>
+            <tr><td>Discover</td><td>The user problem, context, and evidence behind the opportunity.</td></tr>
+            <tr><td>Design</td><td>The desired outcome, measure, solution direction, and first slice.</td></tr>
+            <tr><td>Develop</td><td>The working prototype, acceptance checks, and important boundaries.</td></tr>
+            <tr><td>Deliver</td><td>What was learned, what remains uncertain, and the next decision.</td></tr>
           </tbody>
         </table>
-        <div class="footer"><span>11 · Apply the learning</span><span>Make the next decision clearer</span></div>
+        <div class="quote" style="margin-top:24px">The prototype is the delivery here: something people can see, try, or inspect so the team can decide what to do next.</div>
+        <div class="footer"><span>11 · Deliver</span><span>Demonstrate, learn, decide</span></div>
       </section>
 
       <section>
